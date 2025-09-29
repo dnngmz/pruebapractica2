@@ -20,11 +20,12 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     private static final int JOB_ID = 1;
     public TextView txtModo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        txtModo = findViewById(R.id.txtModo);
         setContentView(R.layout.activity_main);
+        txtModo = findViewById(R.id.txtModo);
     }
 
     private BroadcastReceiver airplaneReceiver = new BroadcastReceiver() {

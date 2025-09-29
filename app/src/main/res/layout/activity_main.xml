@@ -33,14 +33,16 @@
             android:textStyle="bold"/>
 
         <TextView
+            android:fontFamily="@font/wonderian"
             android:id="@+id/txtModo"
             android:layout_marginTop="400dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Modo avión: broadcast receiver"
             android:textColor="@color/white"
+            android:letterSpacing="0.1"
             android:padding="5dp"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textAlignment="center"/>
     </LinearLayout>
 
